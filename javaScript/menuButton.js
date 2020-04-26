@@ -1,7 +1,6 @@
 // making menu items disappear
 let menu_elem =[];
 let check = 0;
-console.log("menu button is loaded")
 menu_elem = document.getElementsByClassName("elem");
 
 for(let i =0; i<menu_elem.length; i++){
