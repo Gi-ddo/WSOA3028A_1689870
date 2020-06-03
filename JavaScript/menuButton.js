@@ -14,7 +14,7 @@ const btn = document.body.querySelector('button');
 function menu_open(){
    
     for(let i =0; i<menu_elem.length; i++){
-        menu_elem[i].style.display ="block";
+        menu_elem[i].style.display = "grid";
         check = 1;
     }      
 }

@@ -1,0 +1,58 @@
+html,
+body{
+  padding: 0%;
+  margin: 0%;
+  font-family: sans-serif;
+  background-color: #f1f1f1;
+  line-height: 1.6em;
+}
+
+p{
+    text-align: justify;
+}
+
+#Site-name{
+
+   background-color: steelblue;
+   margin: auto;
+   overflow: hidden;
+   width:auto;
+   height: 80px;
+   font-size: 20px;
+   text-align: center;
+}
+
+.Container{
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+#Nav-menu{
+  background-color: slategray;
+  cursor: pointer;
+  list-style: none;
+  text-align: justify;
+ 
+}
+
+#Nav-menu ul{
+  padding: 0%;
+  list-style: none;
+  cursor: pointer;
+}
+
+#Nav-menu li{
+  display: inline;
+}
+
+#Nav-menu a{
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  padding-right: 30px;
+}
+
+
+
+
