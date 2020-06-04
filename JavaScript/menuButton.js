@@ -9,12 +9,12 @@ for(let i =0; i<menu_elem.length; i++){
 
 
 // making menu items appear and disappear when you click on the menu button
-const btn = document.body.querySelector('button');
+const btn = document.body.querySelector('li');
 
 function menu_open(){
    
     for(let i =0; i<menu_elem.length; i++){
-        menu_elem[i].style.display = "grid";
+        menu_elem[i].style.display = "block";
         check = 1;
     }      
 }
@@ -27,7 +27,7 @@ function  menu_close(){
     } 
 }
 
-btn.addEventListener('click', function(isDisplayed){
+btn.addEventListener('mouseover', function(isDisplayed){
   
   if(check == 0){
       menu_open();

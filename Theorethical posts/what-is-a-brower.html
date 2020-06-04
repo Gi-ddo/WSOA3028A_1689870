@@ -6,27 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content=" Gift Maposa">
     <meta name="description" content="Defining what is a browser">
-    <link rel="stylesheet" href="../CSS/main.css">
+    <link rel="stylesheet" href="../CSS/pages.css">
     <title>
         What is a Browser?
     </title>
 </head>
 <body>
 
-    <section>
-        <nav  class="Sub-menu-nav">
-            <a href="../index.html">Home Page</a> |
-            <a href="../Links/journal.html">Character Journal</a> |
-            <a href="../Links/blogs_link.html">Blogs</a> |
-            <a href="../Museum/museum.html">Museum</a> |
-            <a href="../Design/Web-Design.html">Web Design</a>
-        </nav>
-    </section>
+    <nav class="Sub-nav">
+        <ul>
+            <li><a href="../index.html">Home Page</a></li> 
+            <li><a href="../Links/journal.html">Character Journal</a></li> 
+            <li><a href="../Links/blogs_link.html">Blogs</a></li> 
+            <li><a href="../Museum/museum.html">Museum</a></li> 
+            <li><a href="../Design/Web-Design.html">Web Design</a></li>
+            <li><a href="../Links/contacts.html">Contacts</a></li>
+        </ul>
+       
+    </nav>
 
     <br>
-    <input type="button" value="Back" onclick="history.back()">
+    <input type="button" value="Back" onclick="history.back()" class="Back-button">
 
-    <article>
+    <article class="Box">
         <h1> What is a brower? How do they work? </h1>
 
         <p> A browser is a software application used to retrieve, display, and store content from the world wide web. These types of contents include web pages, images, videos, and music, etc. All the digital medium we have access to is mostly received through a browser, these browsers are accessed through our phones and computers. The most widely known browsers are:
@@ -39,6 +41,7 @@
 
         </p>
 
+        <br>
         <ul>
           
             <li>
@@ -95,13 +98,17 @@
         </ul>
     </article>
 
-    <section>
-        <h2>References</h2>
+    <br>
+
+    <section class="Box">
+        <h2>References:</h2>
         <ul>
             <li><cite><a href="https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/"> How Browers work</a></cite></li>
         </ul>
-        
+
+        <br>
+        <a href="./semantic-markup.html">Previous blog post</a> | <a href="./the-importance-of-accessibility.html">Next blog post</a>
     </section>
-   <a href="./semantic-markup.html">Previous blog post</a> | <a href="./the-importance-of-accessibility.html">Next blog post</a>
+   
 </body>
 </html>

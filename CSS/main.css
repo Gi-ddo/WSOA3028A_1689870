@@ -1,57 +1,94 @@
-html,
-body{
+*{
   padding: 0%;
   margin: 0%;
+}
+
+body{
+  
   font-family: sans-serif;
-  background-color: #f1f1f1;
   line-height: 1.6em;
 }
 
 p{
-    text-align: justify;
+  line-height: 1.6em;
+  font-weight: 900;
 }
 
-#Site-name{
 
-   background-color: steelblue;
+.Site-name{
+
+   background-color: #fa163f;
    margin: auto;
-   overflow: hidden;
-   width:auto;
    height: 80px;
    font-size: 20px;
    text-align: center;
+   padding: 50px;
 }
 
-.Container{
-  width: 80%;
-  margin: auto;
-  overflow: hidden;
-}
-
-#Nav-menu{
-  background-color: slategray;
-  cursor: pointer;
-  list-style: none;
-  text-align: justify;
+.Site-name h1{
+ 
+  position: relative;
+  top: 50px;
  
 }
 
-#Nav-menu ul{
-  padding: 0%;
+.Site-name img{
+
+  position: relative;
+  right: 300px;
+  bottom: 40px;
+  border-radius: 50%;
+  
+}
+
+
+
+.Menu-Container{
+  text-align: center;
+  background-color: #414141;
+}
+
+.Menu-Container ul{
+
+  display: inline-flex;
   list-style: none;
-  cursor: pointer;
+  
 }
 
-#Nav-menu li{
-  display: inline;
+.Menu-Container  li{
+  width: 130px;
+  margin: 15px;
+  padding: 15px;
 }
 
-#Nav-menu a{
-  color: white;
+.Menu-Container a{
   text-decoration: none;
-  font-size: 20px;
-  padding-right: 30px;
+  color: white;
 }
+
+.Menu-Container li:hover{
+
+  background-color:#ffd615;
+  border-radius: 4px;
+}
+
+.Site-description{
+
+  width: 80%;
+  margin: 100px;
+  padding: 50px;
+  color:black;
+  
+  
+}
+
+.Site-description h2{
+  text-align: center;
+  margin: 20px;
+  font-size: 50px;
+}
+
+
 
 
 
