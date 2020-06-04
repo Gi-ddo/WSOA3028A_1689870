@@ -7,6 +7,7 @@ body{
   
   font-family: sans-serif;
   line-height: 1.6em;
+  width: auto;
 }
 
 p{
@@ -23,12 +24,15 @@ p{
    font-size: 20px;
    text-align: center;
    padding: 50px;
+   width: auto;
+   
 }
 
 .Site-name h1{
  
   position: relative;
   top: 50px;
+  width: auto;
  
 }
 
@@ -38,6 +42,7 @@ p{
   right: 300px;
   bottom: 40px;
   border-radius: 50%;
+  width: auto;
   
 }
 
@@ -46,6 +51,7 @@ p{
 .Menu-Container{
   text-align: center;
   background-color: #414141;
+  width: 100%;
 }
 
 .Menu-Container ul{
@@ -53,10 +59,10 @@ p{
   display: inline-flex;
   list-style: none;
   
+  
 }
 
 .Menu-Container  li{
-  width: 130px;
   margin: 15px;
   padding: 15px;
 }
@@ -74,8 +80,8 @@ p{
 
 .Site-description{
 
-  width: 80%;
-  margin: 100px;
+  width: auto;
+  margin: auto;
   padding: 50px;
   color:black;
   

@@ -6,8 +6,9 @@
 body{
 
     font-family: sans-serif;
-    /* background-color: #003f5c; */
     line-height: 1.6em;
+    text-align: justify;
+    width: auto;
     
 }
 
@@ -18,6 +19,7 @@ h1,h2,p,a,li{
 
     text-align: center;
     background-color: #414141;
+    width: auto;
 }
 
 .Sub-nav ul{
@@ -46,22 +48,20 @@ h1,h2,p,a,li{
 
 .Box{
 
-    width: auto;
+    width: 100%;
     margin: auto;
     text-align: center;
     
 }
 
 .Box h1{
-
-    padding: 35px;
+    padding: 30px;
     font-size: 200%;
     font-weight: 900;
 }
 
 .Box li{
     padding: 10px;
-
 }
 
 .Box a{
@@ -74,8 +74,9 @@ h1,h2,p,a,li{
 
 .Box p{
     line-height: 1.6em;
-    font-weight: 900;
+    font-weight: 800;
     
 }
+
 
 
