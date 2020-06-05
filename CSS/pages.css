@@ -9,6 +9,7 @@ body{
     line-height: 1.6em;
     text-align: justify;
     width: auto;
+    background-color: #fcfcfc;
     
 }
 
@@ -76,6 +77,12 @@ h1,h2,p,a,li{
     line-height: 1.6em;
     font-weight: 800;
     
+}
+
+.Box a:hover{
+
+    background-color: gray;
+    border-radius: 2px;
 }
 
 
