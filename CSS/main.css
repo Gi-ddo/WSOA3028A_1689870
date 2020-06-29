@@ -4,7 +4,6 @@
 }
 
 body{
-  
   font-family: sans-serif;
   line-height: 1.6em;
   width: auto;
@@ -52,7 +51,7 @@ p{
 .Menu-Container{
   text-align: center;
   background-color: #414141;
-  width: 100%;
+  width: auto;
 }
 
 .Menu-Container ul{
@@ -95,7 +94,20 @@ p{
   font-size: 50px;
 }
 
+@media (max-width:600px) {
+  
+  .Site-name{
 
+    width: auto;
+    margin: auto;
+  }
+  
+  .Menu-Container{
+
+    width: auto;
+    margin: auto;
+  }
+}
 
 
 
