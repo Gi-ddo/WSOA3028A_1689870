@@ -25,7 +25,6 @@ function Bullet(x,y){
         }else{
             return false;
         }
-
     }
 
     this.get_destroyed = function(){
